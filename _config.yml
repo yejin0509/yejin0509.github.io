@@ -21,8 +21,8 @@ futrue: true
 
 url: "https://yejin0509.github.io/"
 
-#navbar-links:
-#  About Me: "aboutme"
+navbar-links:
+  About Me: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #   - Learn markdown: "https://www.markdowntutorial.com/"
@@ -34,7 +34,7 @@ url: "https://yejin0509.github.io/"
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "markos-mant-MdS2EJCDLlk-unsplash.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
