@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "2주차 - 기초 설정"
+title: "Week2_SetUp"
 subtitle: IDE 설치 및 LED 점등
 ---
 <br><br>
 <br><br>
-<br><br>
+
 
 
 ## 1️⃣ 아두이노 IDE 설치
@@ -35,7 +35,7 @@ subtitle: IDE 설치 및 LED 점등
 <br><br>
 
 
-### 3. URL 붙여넣기 후 확인
+### 3. 아래 URL 붙여넣기 후 확인
 <br>
 #### https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
 <br><img src= "https://user-images.githubusercontent.com/63178658/223050093-a236922c-8385-4bba-80ec-df46f53ad6a8.png"/>
