@@ -22,5 +22,6 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 4. 툴 > 보드 > 보드매니저 클릭
 5. esp32 검색 후 install
 
-## ESP32 연결
+## ESP32 연결 
 
+1. 툴 > 보드 > ESP32 Arduino 설정
