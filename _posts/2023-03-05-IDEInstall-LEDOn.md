@@ -3,6 +3,10 @@ layout: post
 title: "2주차 - 기초 설정"
 subtitle: IDE 설치 및 LED 점등
 ---
+<br><br>
+<br><br>
+<br><br>
+
 
 ## 1️⃣ 아두이노 IDE 설치
 <hr/>
@@ -10,7 +14,11 @@ subtitle: IDE 설치 및 LED 점등
 [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)<br/>
 #### 위에 링크에 접속하여 Arduino IDE 설치<br>
 <img src="https://user-images.githubusercontent.com/63178658/223021248-17441d33-53a8-461a-97a2-d528fc809069.png"/>
-<br><br><br>
+<br><br>
+<br><br>
+<br><br>
+
+
 
 ## 2️⃣ 아두이노 IDE에서 ESP32 설정
 ---
@@ -27,9 +35,11 @@ subtitle: IDE 설치 및 LED 점등
 <br><br>
 
 
-### 3. https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
+### 3. URL 붙여넣기 후 확인
+<br>
+#### https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
 <br><img src= "https://user-images.githubusercontent.com/63178658/223050093-a236922c-8385-4bba-80ec-df46f53ad6a8.png"/>
-#### 위 URL 붙여넣기 후 확인<br><br>
+<br><br>
 
 
 ### 4. 툴 > 보드 > 보드매니저 클릭
@@ -37,7 +47,9 @@ subtitle: IDE 설치 및 LED 점등
 <br><br>
 ### 5. esp32 검색 후 install
 <img src= "https://user-images.githubusercontent.com/63178658/223050082-b726529e-364b-4b54-b97f-c740cee37292.png"/>
-<br><br><br>
+<br><br>
+<br><br>
+<br><br>
 
 
 
@@ -58,7 +70,7 @@ subtitle: IDE 설치 및 LED 점등
 <img src = "https://user-images.githubusercontent.com/63178658/223053471-997780fa-02f6-4483-a58a-5b59312fc72b.png"/>
 <br><br>
 <br><br>
-
+<br><br>
 
 ## 4️⃣ LED 점등
 <hr/>
@@ -76,6 +88,7 @@ subtitle: IDE 설치 및 LED 점등
 
 ### 3. Upload ( 왼쪽 상단에 ' -> ' 표시 클릭)
 <img src = "https://user-images.githubusercontent.com/63178658/223057009-1aa64ec1-a67c-4c7b-baac-f8553626753f.png"/><br>
+<br><br>
 #### Connecting...이 뜰 때 esp32에 BOOT 버튼 2초 이상 Press
 <br>
 <img src="https://user-images.githubusercontent.com/63178658/223057014-c7f12fef-6238-4f56-9618-30a3d3888535.png"/>
