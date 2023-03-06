@@ -4,7 +4,7 @@ title: "2주차 - 기초 설정"
 subtitle: IDE 설치 및 LED 점등
 ---
 
-## 아두이노 IDE 설치
+<center><h2>아두이노 IDE 설치</h2><center/>
 <hr style="1"/>
 [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)<br/>
 <a href="https://www.arduino.cc/en/software"></a>
