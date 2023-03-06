@@ -5,8 +5,8 @@ subtitle: IDE 설치 및 LED 점등
 ---
 
 ## 아두이노 IDE 설치
-<hr/>
-[https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
+<hr style="1"/>
+[https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)<br/>
 <a href="https://www.arduino.cc/en/software"></a>
 <img scr="https://github.com/yejin0509/yejin0509.github.io/issues/2#issue-1610654389"/>
 위에 링크에 접속하여 Arduino IDE 설치
