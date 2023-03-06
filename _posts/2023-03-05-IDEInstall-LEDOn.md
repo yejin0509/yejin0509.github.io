@@ -13,10 +13,10 @@ subtitle: IDE 설치 및 LED 점등
 ## 아두이노 IDE에서 ESP32 설정
 
 1. 아두이노 IDE 열기
-2. 왼쪽 상단 파일 > 환경설정 > 추가적인 보드 매니저 URLs > 우측 버튼 클릭
+2. 왼쪽 상단 파일 > 환경설정 > 추가적인 보드 매니저 URLs > 우측 버튼 클릭<br>
 3.
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
-위 URL 붙여넣기 후 확인
+<br>위 URL 붙여넣기 후 확인
 4. 툴 > 보드 > 보드매니저 클릭
 5. esp32 검색 후 install
 <br><br>
