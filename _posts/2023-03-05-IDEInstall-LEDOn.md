@@ -12,7 +12,7 @@ subtitle: IDE 설치 및 LED 점등
 #### 위에 링크에 접속하여 Arduino IDE 설치
 <br/><br/>
 
-## 아두이노 IDE에서 ESP32 설정
+## 2️⃣ 아두이노 IDE에서 ESP32 설정
 ---
 
 ### 1. 아두이노 IDE 열기
@@ -32,7 +32,7 @@ subtitle: IDE 설치 및 LED 점등
 <img src= "https://user-images.githubusercontent.com/63178658/223050082-b726529e-364b-4b54-b97f-c740cee37292.png"/>
 <br><br/>
 
-## ESP32 연결 
+## 3️⃣ ESP32 연결 
 <hr/>
 ### 1. 툴 > 보드 > ESP32 > 해당 esp32 종류 확인 후 설정
 <img src= "https://user-images.githubusercontent.com/63178658/223051835-105d1043-d271-4aa3-89d4-670d91351a2e.png"/>
@@ -43,14 +43,17 @@ subtitle: IDE 설치 및 LED 점등
 ### 3. 툴 > Port > Port 연결 확인
 <img src = "https://user-images.githubusercontent.com/63178658/223053471-997780fa-02f6-4483-a58a-5b59312fc72b.png"/>
 <br><br>
-### 4. esp32 LED 아래와 같이 연결
+<br><br>
+## 4️⃣ LED 점등
+<hr/>
+### 1. esp32 LED 아래와 같이 연결
 <img src = "https://user-images.githubusercontent.com/63178658/223055291-ea943bd9-f871-4d79-8535-69b0c0637d92.jpg"/>
 <img src = "https://user-images.githubusercontent.com/63178658/223055284-71e94a94-1f33-46dc-b09c-712292c31092.jpg"/>
 <br><br>
-### 5. IDE에 코드 입력
+### 2. IDE에 코드 입력
 <img src = "https://user-images.githubusercontent.com/63178658/223057009-1aa64ec1-a67c-4c7b-baac-f8553626753f.png"/>
 <br><br>
-### 6. Upload ( 왼쪽 상단에 ' -> ' 표시 클릭)
+### 3. Upload ( 왼쪽 상단에 ' -> ' 표시 클릭)
 <img src = "https://user-images.githubusercontent.com/63178658/223057009-1aa64ec1-a67c-4c7b-baac-f8553626753f.png"/><br>
 #### Connecting...이 뜰 때 esp32에 BOOT 버튼 2초 이상 Press
 <br>
@@ -58,7 +61,7 @@ subtitle: IDE 설치 및 LED 점등
 <br>
 <img src="https://user-images.githubusercontent.com/63178658/223056791-e6dfc507-0279-4194-aea5-ee70db659ea0.jpg"/>
 <br><br>
-### 7. 점등 확인
+### 4. 점등 확인
 <img src = "https://user-images.githubusercontent.com/63178658/223054964-78939bb2-7d3a-4fab-9a4b-66b84c8366bd.png"/>
 <br>
 <img src="https://user-images.githubusercontent.com/63178658/223055278-61aabaa6-d98e-495f-8d2f-f3f7d1570b34.jpg"/>
