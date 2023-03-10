@@ -72,23 +72,20 @@ subtitle: IDE 설치 및 LED 점등
 <br><br>
 <br><br>
 
-## 4️⃣ LED 점등
+## 4️⃣ 내부 LED 점멸
 <hr/>
 <br>
-### 1. esp32 LED 아래와 같이 연결
-<img src = "https://user-images.githubusercontent.com/63178658/223055291-ea943bd9-f871-4d79-8535-69b0c0637d92.jpg"/>
-<img src = "https://user-images.githubusercontent.com/63178658/223055284-71e94a94-1f33-46dc-b09c-712292c31092.jpg"/>
-<br><br>
 
-
-### 2. IDE에 코드 입력
-<img src = "https://user-images.githubusercontent.com/63178658/223057009-1aa64ec1-a67c-4c7b-baac-f8553626753f.png"/>
+### 1. IDE에 코드 입력
+<img src = "https://user-images.githubusercontent.com/63178658/224239018-c12cffb7-55bb-4cb3-b957-c6ba2c9f042d.png"/>
+<img src = "https://user-images.githubusercontent.com/63178658/224238791-1b2cc901-ce04-4cf4-a9f5-2ca7caace2b2.png"/>
 <br><br>
 
 
 ### 3. Upload ( 왼쪽 상단에 ' -> ' 표시 클릭)
-<img src = "https://user-images.githubusercontent.com/63178658/223057009-1aa64ec1-a67c-4c7b-baac-f8553626753f.png"/><br>
+<img src = "https://user-images.githubusercontent.com/63178658/224239408-14da4d79-f19a-497c-b3f2-5867b645c18f.png"/><br>
 <br><br>
+
 #### Connecting...이 뜰 때 esp32에 BOOT 버튼 2초 이상 Press
 <br>
 <img src="https://user-images.githubusercontent.com/63178658/223057014-c7f12fef-6238-4f56-9618-30a3d3888535.png"/>
@@ -98,8 +95,8 @@ subtitle: IDE 설치 및 LED 점등
 
 
 ### 4. 점등 확인
-<img src = "https://user-images.githubusercontent.com/63178658/223054964-78939bb2-7d3a-4fab-9a4b-66b84c8366bd.png"/>
+<img src = "https://user-images.githubusercontent.com/63178658/224239162-e68f6337-40ad-4bcd-9ebc-0185696d4b66.jpg"/>
 <br>
-<img src="https://user-images.githubusercontent.com/63178658/223055278-61aabaa6-d98e-495f-8d2f-f3f7d1570b34.jpg"/>
+<video src="https://user-images.githubusercontent.com/63178658/224239144-abbd4164-ba4a-4c5d-aa0e-af3a3c4d397a.mp4"/>
 <br><br><br>
 
