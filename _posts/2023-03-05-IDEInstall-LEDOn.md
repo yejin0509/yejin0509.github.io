@@ -97,5 +97,8 @@ subtitle: IDE 설치 및 LED 점등
 ### 4. 점멸 확인
 <img src = "https://user-images.githubusercontent.com/63178658/224239162-e68f6337-40ad-4bcd-9ebc-0185696d4b66.jpg"/>
 <br>
+<img src = "https://user-images.githubusercontent.com/63178658/224246427-5f176c27-a0ee-4165-86ee-d097253fa15d.gif"/>
+
+
 <br><br><br>
 
