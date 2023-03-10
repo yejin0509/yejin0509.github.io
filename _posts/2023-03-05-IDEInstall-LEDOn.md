@@ -98,6 +98,7 @@ subtitle: IDE 설치 및 LED 점등
 <img src = "https://user-images.githubusercontent.com/63178658/224239162-e68f6337-40ad-4bcd-9ebc-0185696d4b66.jpg"/>
 <br>
 <iframe width="560" height="315" src="https://user-images.githubusercontent.com/63178658/224239144-abbd4164-ba4a-4c5d-aa0e-af3a3c4d397a.mp4" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="/내부led_4.png.mp4" frameborder="0" allowfullscreen></iframe>
 
 <br><br><br>
 
