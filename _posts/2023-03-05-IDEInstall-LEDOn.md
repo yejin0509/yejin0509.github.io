@@ -88,7 +88,7 @@ subtitle: IDE 설치 및 LED 점등
 
 #### Connecting...이 뜰 때 esp32에 BOOT 버튼 2초 이상 Press
 <br>
-<img src="https://user-images.githubusercontent.com/63178658/223057014-c7f12fef-6238-4f56-9618-30a3d3888535.png"/>
+<img src="https://user-images.githubusercontent.com/63178658/224239868-d5cbe1d4-ec2a-4e2c-b2af-0c961f2a4139.jpg"/>
 <br>
 <img src="https://user-images.githubusercontent.com/63178658/223056791-e6dfc507-0279-4194-aea5-ee70db659ea0.jpg"/>
 <br><br>
