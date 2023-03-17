@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Week2_SetUp"
-subtitle: IDE 설치 및 LED 점등
+subtitle: IDE 설치 및 내부 LED 점멸
 ---
 <br><br>
 <br><br>
