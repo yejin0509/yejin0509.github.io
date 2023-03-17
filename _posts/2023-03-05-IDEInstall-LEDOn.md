@@ -3,6 +3,7 @@ layout: post
 title: "Week2_SetUp"
 subtitle: IDE 설치 및 내부 LED 점멸
 tag: Smart_Device
+thumbnail-img: "https://user-images.githubusercontent.com/63178658/225908108-e11d074b-914c-4a60-9358-3e8316aa5a26.jpg"
 ---
 <br><br>
 <br><br>
