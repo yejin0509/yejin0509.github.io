@@ -1,7 +1,10 @@
 ---
 layout: page
 title: Smart_Device
+tag: Smart_Device
 ---
+
+{% include post_list.html %}
 
 {% for post in site.posts %}
   {% if post.tags contains 'Smart_Device' %}
