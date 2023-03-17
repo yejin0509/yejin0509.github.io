@@ -2,6 +2,7 @@
 layout: post
 title: "Week2_SetUp"
 subtitle: IDE 설치 및 내부 LED 점멸
+tag: Smart_Device
 ---
 <br><br>
 <br><br>
