@@ -22,8 +22,8 @@ futrue: true
 url: "https://yejin0509.github.io/"
 
 navbar-links:
-  About Me: "aboutme"
   Smart_Device: "smartDevice"
+  About Me: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #   - Learn markdown: "https://www.markdowntutorial.com/"
