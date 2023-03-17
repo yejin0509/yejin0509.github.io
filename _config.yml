@@ -23,6 +23,7 @@ url: "https://yejin0509.github.io/"
 
 navbar-links:
   About Me: "aboutme"
+  Smart_Device: "smartDevice"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #   - Learn markdown: "https://www.markdowntutorial.com/"
