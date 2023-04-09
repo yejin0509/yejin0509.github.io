@@ -20,7 +20,8 @@ thumbnail-img: "https://user-images.githubusercontent.com/63178658/223021248-174
 <br><br><br><br>
 
 #### 2)  링크에 접속하여 cp2102 드라이브 설치<br>
-[https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)<br>
+[https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)<br><br>
+
 <img src="https://user-images.githubusercontent.com/63178658/230758166-80705eb5-6eaf-486f-b90f-62167e5d8452.png"/>
 
 
