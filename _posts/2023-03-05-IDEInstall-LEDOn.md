@@ -10,15 +10,15 @@ thumbnail-img: "https://user-images.githubusercontent.com/63178658/223021248-174
 
 
 
-## 1️⃣ 아두이노 IDE 및 CP2102 드라이버 설
+## 1️⃣ 아두이노 IDE 및 CP2102 드라이버 설치  
 <hr/>
 <br>
 [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)<br/>
 #### 1) 위 링크에 접속하여 Arduino IDE 설치<br>
 <img src="https://user-images.githubusercontent.com/63178658/223021248-17441d33-53a8-461a-97a2-d528fc809069.png"/>
-<br><br><br>
+<br><br><br><br>
 [https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)<br>
-#### 2) 위 링크에 접속하여 Cp2102 드라이브 설치
+#### 2) 위 링크에 접속하여 Cp2102 드라이브 설치<br>
 <img src="https://user-images.githubusercontent.com/63178658/230758166-80705eb5-6eaf-486f-b90f-62167e5d8452.png"/>
 
 
