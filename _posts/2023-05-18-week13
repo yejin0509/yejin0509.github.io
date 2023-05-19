@@ -1,0 +1,132 @@
+---
+layout: post
+title: "Week12_MQTT"
+subtitle: MQTT
+thumbnail-img: "https://user-images.githubusercontent.com/63178658/239456247-d47a7325-e5f5-4940-a27e-1e463ddff17c.png"
+tag: Smart_Device
+---
+
+<br><br>
+<br><br>
+## 0️⃣ 시작 전
+<hr/>
+<br>
+<br><br>
+### 1. TCP와 UDP 차이
+<img src ="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXqvGE%2FbtrsWLg2iLm%2FovoVUxK4xlMlq4lazvwee1%2Fimg.png"/><br><br>
+#### 1) TCP와 UDP는 OSI 7계층 중 TCP/IP의 전송 계층에서 사용되는 프로토콜<br><br>
+#### 2) TCP는 연결 지향적 프로토콜 / UDP는 비연결형 프로토콜<br><br>
+#### 3) TCP는 수신 여부를 확인하나 UDP는 수신 여부를 확인하지 않음<br><br>
+#### 4) 때문에 UDP보다 TCP가 신뢰성이 높음<br><br>
+#### 5) TCP flow<br><br>
+<img src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99C5C63359FEB5DC06" />
+<br><br>
+<br><br>
+<br><br>
+
+### 2. MQTT란 ? 
+<img src ="https://dejavuhyo.github.io/assets/img/2020-05-26-mqtt-concept/img002.png"/><br><br>
+#### 1) 메세지 발행 - publishing / 주제 구독 - subscribe을 원칙으로 함<br><br>
+#### 2) 저전력, 신뢰할 수 없는 네트워크에서 Non-TCP 기반으로 통신하기 위한 프로토콜<br><br>
+#### 3) QoS를 통해 메시지 전송을 보증 가능<br><br>
+#### 4) 메시지 전송 완료 패킷을 기다리기에 실패 시 재전송 가능<br><br>
+#### 5) 확장성, 신뢰성, 보안, 지원 등 다방면에서 쉽게 사용 가능<br><br>
+#### 6) 아래와 같이 ESP32와 Node-red를 이용하여 확인할 예정<br><br>
+<img src = "https://1.bp.blogspot.com/-v5C_fTsGIo4/X4b2IP10qrI/AAAAAAAAGsw/nIpMtaWaPcsI2LGwqOXCG4rdvScDE-frQCPcBGAsYHg/s600/DHT11-Temperature-Humidity-MQTT-Node-RED.png" />
+
+<br><br>
+<br><br>
+<br><br>
+## 1️⃣ MQTT와 Node-red 연결 
+<hr/>
+<br>
+<br><br>
+### 1. 아래 링크에서 Host / Port / ClientID 확인  <br><br>
+[MQTT_Client_URL](https://www.hivemq.com/demos/websocket-client)
+<img src = "https://user-images.githubusercontent.com/63178658/239456247-d47a7325-e5f5-4940-a27e-1e463ddff17c.png"/><br><br>
+<br><br>
+<br><br>
+### 2. Node-red에 아래와 같이 노드 설정 <br><br>
+<img src = "https://user-images.githubusercontent.com/63178658/239453607-f6647bc2-6c85-4e2b-a3ac-84db77512ea7.png"/><br><br>
+<br><br>
+<br><br>
+
+
+
+### 3. mqtt.in 노드 설정<br><br>
+<img src = "https://user-images.githubusercontent.com/63178658/239453608-656829f9-40ff-4b85-a717-5f46bb35076e.png"/><br><br>
+<img src = "https://user-images.githubusercontent.com/63178658/239453611-50849ada-7217-4a77-88f7-fc0c4cbbf55f.png"/><br><br>
+#### 설정 후 배포
+<br><br>
+<br><br>
+
+### 4. 다시 MQTT Client에서 연결 시도<br><br>
+<img src = "https://user-images.githubusercontent.com/63178658/239456252-6d47cfdf-e54a-42b9-96da-04f685491f89.png"/><br><br>
+#### 연결이 완료 되면 아래와 같이 "connected"와 버튼이 "Disconnect"로 변경 됨
+<img src = "https://user-images.githubusercontent.com/63178658/239455190-c9c4d3b6-426d-4f89-a5e9-22e914dc063e.png"/><br><br>
+<br><br>
+<br><br>
+<br><br>
+
+
+## 2️⃣ MQTT Topic 설정
+<hr/>
+<br>
+<br><br>
+### 1. 아래 순서로 msg 확인  <br><br>
+<img src = "https://user-images.githubusercontent.com/63178658/239456958-ba3e742b-a102-4e81-8b90-6c88f6276fb0.png"/><br><br>
+<br><br>
+<br><br>
+
+
+### 2. Subscriptions에서 temp / humi topic 설정  <br><br>
+<img src = "https://user-images.githubusercontent.com/63178658/239456241-27163fee-b28b-4dcb-9079-7ad29289dd4f.png"/><br><br>
+<img src = "https://user-images.githubusercontent.com/63178658/239453598-110f8d1f-d416-4ad3-9b1d-13cb9f9e1bef.png"/><br><br>
+<img src = "https://user-images.githubusercontent.com/63178658/239453586-bc41720c-7afe-48e1-a9da-93292e90f6ef.png"/><br><br>
+
+<br><br>
+<br><br>
+### 3. Node-red에서도 topic 설정<br><br>
+<img src = "https://user-images.githubusercontent.com/63178658/239454596-bc0b7ef3-9976-4422-b63b-2573992cf1bf.png"/><br><br>
+<img src = "https://user-images.githubusercontent.com/63178658/239454600-597abe05-df62-4ea2-ac55-9a043ea7108a.png"/><br><br>
+<br><br>
+<br><br>
+<br><br>
+## 3️⃣ esp32 코드 업로드 
+<hr/>
+<br>
+<br><br>
+### 1. EspMQTTClient 라이브러리 설치
+<img src = "https://user-images.githubusercontent.com/63178658/239457711-fec7c246-b9e4-4c74-b1de-fd6ece6ed523.png"/><br><br>
+<br><br>
+<br><br>
+<br><br>
+
+### 2. 아래 코드 참고하여 코드 수정 후 업로드  <br><br>
+<script src="https://gist.github.com/yejin0509/90d5c41f114c36cb168e25472fcd14b4.js"></script><br><br>
+<img src = "https://user-images.githubusercontent.com/63178658/239455198-b4bb976e-f8e8-4a67-977f-bd29a9fe14b8.png"/><br><br>
+<br><br>
+<br><br>
+<br><br>
+
+### 3. 시리얼 모니터에서 온습도 확인   <br><br>
+<img src = "https://user-images.githubusercontent.com/63178658/239453585-65ea2b48-9a2f-4936-b5f5-ddc27910b70e.png"/><br><br>
+<br><br>
+<br><br>
+<br><br>
+
+### 4. UI 확인  <br><br>
+<img src = "https://user-images.githubusercontent.com/63178658/239453601-430fd41c-7ff5-4be4-8753-be8317d4432c.png"/><br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+
+참고<br>
+https://mangkyu.tistory.com/15<br>
+https://dejavuhyo.github.io/posts/mqtt-concept/ <br>
+https://cho-wifi-iot.blogspot.com/p/python-dht11-mqtt-node-red.html <br>
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=changbab&logNo=221565552533
+<br><br>
+<br><br>
