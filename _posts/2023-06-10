@@ -1,0 +1,153 @@
+---
+layout: post
+title: "Week15_AWS"
+subtitle: AWS
+thumbnail-img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png"
+tag: Smart_Device
+---
+
+
+
+<br><br>
+<br><br>
+
+## 0️⃣  AWS
+<hr/>
+<br>
+<br><br>
+### ▶️ AWS란?<br><br>
+#### Amazon Web Service<br><br>
+#### 클라우드 컴퓨팅 플랫폼으로 작동하여 인터넷을 통해 IT 리소스에 대한 원격 액세스 제공 <br><br>
+#### 즉, 서버, 네트워크 등 인프라 전체를 빌려주는 서비스
+<br><br>
+<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png"/><br><br>
+<br><br>
+<br><br>
+
+### ▶️ 클라우드란?<br><br>
+#### 데이터를 보관, 정리, 분석하고 새로운 서비스를 빠르게 추진할 수 있도록 IT 기술을 빌려주는 서비스 <br><br>
+<br><br>
+<br><br>
+
+### ▶️ 클라우드 컴퓨팅이란?<br><br>
+#### 클라우드를 통해 가상화된 컴퓨팅 리소스를 제공 <br><br>
+
+<br><br>
+<br><br>
+
+### ▶️ AWS와 IOT?<br><br>
+#### AWS는 Iot 애플리케이션을 구축 및 배포하기 위한 다양한 서비스와 도구를 제공 <br><br>
+#### 기업에서 디바이스를 쉽게 연결, 관리하고 데이터를 처리, 분석 가능 <br><br>
+
+<br><br>
+<br><br>
+<br><br>
+
+## 1️⃣ AWS와 ESP32 연결 방법
+<hr/>
+<br>
+<br><br>
+<br><br>
+### 1. Ubuntu / Ubuntu 20.04.4 LTS 설치<br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/63077d76-92b7-44ff-af62-88e1bcb95ec7)<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/7397a733-bf25-40e1-adbe-1cf6628cbaf6)
+
+<br><br>
+<br><br>
+### 2. 터미널에서 Ubuntu 접속하여 username 및 password 설정<br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/5463afdb-551b-43fa-8535-14fe3304c8af)<br>
+
+<br><br>
+<br><br>
+### 3. Putty 설치<br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/f341f77b-91a1-444e-87ae-c4f8c11de46c)<br>
+
+<br><br>
+<br><br>
+### 4. AWS 회원가입 -> EC2 접속<br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/48a0cc59-214d-469e-aed9-6335c66a4a6f)<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/a3d48a0b-0fb6-499b-9326-1c01516df54b)
+<br><br>
+
+<br>
+<br><br>
+<br><br>
+### 5. 인스턴스 시작 - (Ubuntu / t2.micro / 새 키 페어 생성)<br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/057499ec-7930-427d-87d3-fcff6ea6f205)
+<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/ff14a95d-74f0-4443-9934-b46b7f74cc7a)<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/5020136d-8825-4968-be5e-3b6e5497bc5c)<br><br>
+
+<br><br>
+<br><br>
+### 6. 키 입력 후 생성하여 pem 파일 다운로드<br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/f6866353-1769-4167-92cf-687296ceaa68)
+<br><br>![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/d37b0f0c-a529-4d86-8a54-dc2d70c2d557)
+<br><br>
+
+<br><br>
+<br><br>
+### 7. 네트워크 설정 > 편집 > 보안그룹 규칙 추가 > 2개 생성<br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/fb13b877-fea0-4f20-9fda-2d66e1f72915)<br>
+<br><br>
+#### 내 IP 선택 / 포트 1880<br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/d4afde93-0d09-4ac8-bbd4-8f862c90154d)
+<br>
+<br><br>
+<br><br>
+### 8. 인스턴스 시작 > 생성 <br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/c0c55a6a-a76b-4704-8b23-758d139b20ff)<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/8e18aff7-0a8f-4410-8efa-865cb42b96cc)<br><br>
+
+<br><br>
+<br><br>
+### 9. Puttygen > Load > pem 파일 조회 > Save private Key 클릭 > ppk 파일 생성 확인<br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/69e2ee51-4e48-4379-87e1-82579b66752f)<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/ff18e6ca-f60b-437a-b6df-71c1114dc4f3)
+<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/4b1ffee4-05ed-4a86-a4d3-89307c0266cb)<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/4865dfbe-97b0-4f0d-ab07-630cddc492ba)
+<br><br>
+
+<br><br>
+<br><br>
+### 10. 인스턴스 퍼블릭 IPv4 주소 복사 > Putty 실행 후 HostName에 입력 > Auth ppk 키 불러오고 Open<br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/f9d24ea9-b286-4a1b-9e08-c552ba1d0557)<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/0599fe85-6e18-4bf5-8baa-025a5fcd2b7f)<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/3aa270a8-b494-42fa-bb24-5230766b853d)<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/58a1e08c-0280-4b0b-b2c9-5591022baa23)<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/cc2446cf-27bc-47a7-8135-67347bc49243)<br><br>
+
+<br><br>
+
+<br><br>
+<br><br>
+### 11. Ubuntu 입력 후 > Install > node-red 실행<br>
+[rode-red / aws 참고](https://nodered.org/docs/getting-started/aws)<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/6851b8a2-cbbb-4d75-804c-c1ce673ec3d8)<br>
+#### rond-red 버전에 맞게 설치<br><br><br>
+##### curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash - sudo apt-get install -y nodejs build-essential sudo npm install -g --unsafe-perm node-red <br><br><br>
+##### sudo npm install -g --unsafe-perm pm2 pm2 start `which node-red` -- -v pm2 save pm2 startup
+
+<br><br>
+<br><br>
+### 12. cmd에서 node-red 실행 후 UI 확인<br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/375554b5-2bb3-4b12-95dc-9e4f3d1c9db5)<br><br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/0111b33e-653f-464e-b514-b93b43027361)<br><br><br>
+#### 온습도 확인 가능 <br>
+![image](https://github.com/yejin0509/yejin0509.github.io/assets/63178658/e3b44ab2-da7a-41c7-b1c2-dc3721317076)<br>
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+<br><br><br><br><br><br>
+#### 참고
+https://seaforest76.tistory.com/13
+<br><br>
+ https://nodered.org/docs/getting-started/aws)
+<br><br>
+<br><br>
+<br><br>
+<br><br>
